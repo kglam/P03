@@ -1,0 +1,249 @@
+body {
+  font-family: Lato, sans-serif;
+  margin: 0;
+}
+
+p {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 1.2em;
+  color: #333;
+}
+
+header {
+  padding: 0 2%;
+}
+
+header .right {
+  margin-top: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.3s ease-out
+}
+
+a:hover {
+  color: #a1cf5b;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 1em;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+code {
+  display: block;
+  margin-bottom: 1em;
+}
+
+section h2 {
+  border-bottom: dashed #a1cf5b 1px;
+}
+
+section h3 {
+  margin-bottom: 0.25em;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #ced5c3;
+  padding: 1em 1.5em;
+}
+
+section, #grid-struct {
+  padding: 2rem;
+}
+
+.shaded {
+  background-color: #f9fcf4;
+}
+
+.centered {
+  text-align: center;
+}
+
+.content2 h2 {
+  margin: 1.5em 0;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/*Submit button*/
+.button {
+  background-color: white;
+  border: solid #a1cf5b 3px;
+  padding: 1em 2em;
+  color: #a1cf5b;
+  border-radius: .5em;
+  margin: 1em;
+  font-family: Lato;
+  font-weight: bold;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+.button:hover, .button:focus {
+  background-color: #a1cf5b;
+  color: white;
+}
+
+/*Reset button*/
+.button2 {
+  background-color: white;
+  border: solid #333 3px;
+  padding: 1em 2em;
+  color: #333;
+  border-radius: .5em;
+  margin: 1em;
+  font-family: Lato;
+  font-weight: bold;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+.button2:hover, .button2:focus {
+  color: white;
+  background-color: #333;
+}
+
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+h1 {
+  font-size: 4em;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0.2em;
+  font-weight: normal;
+}
+
+.centered h1 {
+  margin-top: 3em;
+}
+
+.head1 {
+  font-size: 2em;
+  letter-spacing: 0.8em;
+  font-family: Lato, sans-serif;
+  font-weight: normal;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: circle;
+  font-family: Source Sans Pro, sans-serif;
+}
+
+ol {
+  font-family: Source Sans Pro, sans-serif;
+}
+
+.centered p {
+  margin-bottom: 10em;
+}
+
+.centered a {
+
+}
+
+
+
+
+/*colour swatches*/
+.color1  {
+  background-color: #f9fcf4;
+  border: solid lightgrey 1px;
+}
+
+.color2  {
+  background-color: #ced5c3;
+}
+
+.color3  {
+  background-color: #a1cf5b;
+}
+
+.color4  {
+  background-color: #333333;
+}
+
+.color1, .color2, .color3, .color4 {
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.col1 {
+  background-color: #1a1a1a;
+}
+
+.col2 {
+  background-color: #404040;
+}
+
+.col3 {
+  background-color: #666666;
+}
+
+.col4 {
+  background-color: #8c8c8c;
+}
+
+.col1, .col2, .col3, .col4 {
+  padding: 1em;
+  margin-bottom: 0.5em;
+}
+
+.green-border{
+  border-top: dotted #a1cf5b 0.5em;
+  border-bottom: dotted #a1cf5b 0.5em;
+}
+
+.colour-name{
+  color: black;
+  margin-top: 1em;
+  font-family: Lato;
+  text-align: center;
+}
+
+.color4 .colour-name{
+  color: white;
+}
+
+.grid-name{
+  color: white;
+  margin-top: 1em;
+  font-family: Lato;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+#green-shadow {
+  text-shadow: 4px 4px #d7e5c0;
+}

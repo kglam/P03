@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Style Guide</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <div class="block">
+          <h1 id="green-shadow" class="head1">STYLE GUIDE</h1>
+        </div>
+        <nav class="right">
+          <p>
+            <a href="#text_elements">Typography</a>
+            <a href="#interactive_elements">Interactive</a>
+            <a href="index.html">Portfolio</a>
+          </p>
+        </nav>
+      </div>
+    </header>
+    
+    <!-- TEXT ELEMENTS SECTION // -->
+    <div class="content">
+      <section class="block" id="text_elements">
+        <h2>HEADINGS</h2>
+
+        <h3>CSS selector:</h3>
+        <p>h1, h2, h3</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;h1&gt;Heading&lt;/h1&gt;<br>
+        &lt;h2&gt;Subheading 1&lt;/h2&gt;<br>
+        &lt;h3&gt;Subheading 2&lt;/h3&gt;</code>
+
+        <h1>HEADING</h1>
+        <h2>Subheading 1</h2>
+        <h3>SUBHEADING 2</h3>
+      </section>
+
+      <section class="block">
+        <h2>PARAGRAPHS</h2>
+
+        <h3>CSS selector:</h3>
+        <p>p</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit...&lt;/p&gt;</code>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum, enim vel vehicula varius, sem arcu bibendum sem, ac fringilla felis arcu at justo. Nam quis eros ultricies, blandit sapien a, egestas ex.</p>        
+      </section>
+
+      <section class="block">
+        <h2>BULLETED LISTS</h2>
+
+        <h3>CSS selector:</h3>
+        <p>ul</p>
+
+        <h3>Sample code:</h3>
+        <code>
+        &lt;ul&gt;<br>
+        &lt;li&gt;Project 1&lt;li&gt;<br>
+        &lt;li&gt;Project 2&lt;li&gt;<br>
+        &lt;li&gt;Project 3&lt;li&gt;<br>
+        &lt;/ul&gt;
+        </code>
+      <!-- <br> tag for line breaks https://www.w3schools.com/tags/tag_br.asp -->
+
+        <ul>
+          <li>Project 1</li>
+          <li>Project 2</li>
+          <li>Project 3</li>
+        </ul>
+      </section>
+
+      <section class="block">
+        <h2>NUMBERED LISTS</h2>
+
+        <h3>CSS selector:</h3>
+        <p>ol</p>
+
+        <h3>Sample code:</h3>
+        <code>
+        &lt;ol&gt;<br>
+        &lt;li&gt;Project 1&lt;li&gt;<br>
+        &lt;li&gt;Project 2&lt;li&gt;<br>
+        &lt;li&gt;Project 3&lt;li&gt;<br>
+        &lt;/ol&gt;
+        </code>
+
+        <ol>
+          <li>Project 1</li>
+          <li>Project 2</li>
+          <li>Project 3</li>
+        </ol>
+      </section>
+    </div>
+    <!-- // TEXT ELEMENTS SECTION -->
+    <div class="shaded green-border" id="interactive_elements">
+      <div class="content">
+        <section class="block">
+          <h2>IN-TEXT LINK</h2>
+
+          <h3>CSS selector:</h3>
+          <p>.hyperlink, .hyperlink:active, .hyperlink:hover, .hyperlink:focus</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;a href="#" class="hyperlink"&gt;In-text link&lt;/a&gt;</code>
+
+          <p><a class="hyperlink" href="#">In-text link</a></p>
+        </section>
+
+        <section class="block">
+          <h2>BUTTONS</h2>
+
+          <h3>CSS selector:</h3>
+          <p>.button, .button:hover, .button:focus</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;button type="button" class="button"&gt;Project 1&lt;/button&gt;</code>
+
+          <button type="button" class="button">Project 1</button>
+          <button type="button" class="button2">View Project</button>
+        </section>
+      </div>
+    </div>
+    
+      <div class="content">
+        <section>
+          <h2>COLOUR PALETTE</h2>
+          <div class="container">
+            <div class="block color1">
+              <p class="colour-name">
+                #F9FCF4
+              </p>
+            </div>
+            <div class="block color2">
+              <p class="colour-name">
+                #CED5C3
+              </p>
+            </div>
+            <div class="block color3">
+              <p class="colour-name">
+                #ACF5B
+              </p>
+            </div>
+            <div class="block color4">
+              <p class="colour-name">
+                #333333
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div class="block" id="grid-struct">
+
+          <h2>GRID STRUCTURE</h2>
+          <h3>CSS selector:</h3>
+          <p>.container, .block</p>
+
+          <h3>Sample code:</h3>
+          <code>    
+              &lt;div class="container"&gt;<br>
+              &lt;div class="block col1"&gt;COLUMN 1&lt;/div&gt;<br>
+              &lt;div class="block col2"&gt;COLUMN 2&lt;/div&gt;<br>
+              &lt;div class="block col3"&gt;COLUMN 3&lt;/div&gt;<br>
+              &lt;div class="block col4"&gt;COLUMN 4&lt;/div&gt;<br>
+              &lt;/div&gt;
+          </code>
+
+          <div class="container">
+            <div class="block2 col1"><p class="grid-name">COLUMN 1</p></div>
+            <div class="block2 col2"><p class="grid-name">COLUMN 2</p></div>
+          </div>
+          <div class="container">
+            <div class="block2 col1"><p class="grid-name">COLUMN 1</p></div>
+            <div class="block2 col2"><p class="grid-name">COLUMN 2</p></div>
+            <div class="block2 col3"><p class="grid-name">COLUMN 3</p></div>
+         </div>
+         <div class="container">
+           <div class="block2 col1"><p class="grid-name">COLUMN 1</p></div>
+           <div class="block2 col2"><p class="grid-name">COLUMN 2</p></div>
+           <div class="block2 col3"><p class="grid-name">COLUMN 3</p></div>
+           <div class="block2 col4"><p class="grid-name">COLUMN 4</p></div>
+         </div>
+
+        </div>
+      </div>
+
+  </body>
+</html>
