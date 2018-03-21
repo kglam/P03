@@ -17,6 +17,10 @@ header .right {
   margin-top: 1em;
 }
 
+footer .block {
+  margin-top: 5em;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -169,10 +173,6 @@ ol {
   margin-bottom: 10em;
 }
 
-.centered a {
-
-}
-
 
 
 
@@ -247,3 +247,21 @@ ol {
 #green-shadow {
   text-shadow: 4px 4px #d7e5c0;
 }
+
+
+/*videos*/
+.video {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+ /*learned how to make video player size responsive from https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php*/
